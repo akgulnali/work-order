@@ -50,15 +50,7 @@ You need to install homebrew if you want to install with brew command.
 
 ## Getting Started
 
-To run this project locally, you should unzip the file and go to the directoy which is called work_order in the file
-using terminal. For example, I assume you are using macOS and you unzip the files to the desktop. You can follow the
-steps below to reach the directory from terminal. First open your terminal and type the below command.
-
-```
-cd Desktop/hatchways/work_order/
-```
-
-After that you need to run the below command to install dependencies.
+You need to follow the steps below to install dependencies.
 
 ```
 bundle install
@@ -146,14 +138,9 @@ http://localhost:3000/api/v1/orders
 The resuls are sorted by deadline in ascending order.
 
 To see the workers which are assigned to an order you to select GET method from the dropdown and type the below url into the url bar.
-ou need to give the correct order id to see the assigned workers. (Id may varrys.). A max of 5 workers can work on one
-order.
+You need to give the correct order id to see the assigned workers. (Id may varys.). A max of 5 workers can work on one order.
 
 http://localhost:3000/api/v1/orders/1/workers
-
-## Deployment
-
-I was not able to enough time to deploy this project to the Heroku. If I had enough time, I could deploy it.
 
 ## Authors
 
